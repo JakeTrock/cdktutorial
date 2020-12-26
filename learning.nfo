@@ -1,0 +1,8 @@
+boto3 is the python library, python is the best way to do cdk
+
+learn aws cdk - https://cdkworkshop.com/30-python/20-create-project/100-cdk-init.html
+https://github.com/aws/aws-cdk
+https://docs.aws.amazon.com/cdk/latest/guide/home.html
+https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/
+
+Debug lambda locally - https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-using-debugging.html

@@ -1,0 +1,761 @@
+{
+  "version": "7.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkWorkshopStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkWorkshopStack.template.json"
+      },
+      "metadata": {
+        "/CdkWorkshopStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.e99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0",
+              "id": "e99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0",
+              "packaging": "zip",
+              "sourceHash": "e99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0",
+              "s3BucketParameter": "AssetParameterse99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0S3Bucket5F97D417",
+              "s3KeyParameter": "AssetParameterse99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0S3VersionKey341DCFAB",
+              "artifactHashParameter": "AssetParameterse99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0ArtifactHash98FE148F"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/construct-compat.ts:431:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:163:23)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack.ts:653:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:147:40)",
+              "AssetCode.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.ts:247:20)",
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:9:19)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandlerServiceRole11EF7C63",
+            "trace": [
+              "new Role (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:552:31)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:9:19)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler2E4FBA4D",
+            "trace": [
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:608:35)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:9:19)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/e99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterse99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0S3Bucket5F97D417",
+            "trace": [
+              "new FileAssetParameters (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:150:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack.ts:653:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:147:40)",
+              "AssetCode.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.ts:247:20)",
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:9:19)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/e99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterse99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0S3VersionKey341DCFAB",
+            "trace": [
+              "new FileAssetParameters (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:150:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack.ts:653:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:147:40)",
+              "AssetCode.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.ts:247:20)",
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:9:19)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AssetParameters/e99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameterse99f7ecd11270eecf63e1c933c4e704d3ff55438c0368e0a3e0a479789625de0ArtifactHash98FE148F",
+            "trace": [
+              "new FileAssetParameters (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:150:16)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:74:19)",
+              "CdkWorkshopStack.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack.ts:653:29)",
+              "LegacyStackSynthesizer.addFileAsset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:78:25)",
+              "new Asset (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.ts:147:40)",
+              "AssetCode.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.ts:247:20)",
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:572:29)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:9:19)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/Hits/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHits7AAEBF80",
+            "trace": [
+              "new Table (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:1092:18)",
+              "new HitCounter (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/hitcounter.ts:15:19)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:15:30)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerServiceRoleD45002B8",
+            "trace": [
+              "new Role (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:552:31)",
+              "new HitCounter (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/hitcounter.ts:19:20)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:15:30)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerServiceRoleDefaultPolicy1487A60A",
+            "trace": [
+              "new Policy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/policy.ts:154:22)",
+              "Role.addToPrincipalPolicy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/role.ts:368:28)",
+              "Function.addToPrincipal (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/grant.ts:168:61)",
+              "Table.combinedGrant (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:906:29)",
+              "Table.grantReadWriteData (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-dynamodb/lib/table.ts:681:17)",
+              "new HitCounter (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/hitcounter.ts:28:11)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:15:30)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHitCounter/HitCounterHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHitCounterHitCounterHandlerDAEA7B37",
+            "trace": [
+              "new Function (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.ts:608:35)",
+              "new HitCounter (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/hitcounter.ts:19:20)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:15:30)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointEEF1FD8F",
+            "trace": [
+              "new RestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:694:22)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointCloudWatchRoleC3C64E0F",
+            "trace": [
+              "new Role (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "LambdaRestApi.configureCloudWatchRole (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:494:18)",
+              "new RestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:711:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointAccountB8304247",
+            "trace": [
+              "LambdaRestApi.configureCloudWatchRole (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:499:22)",
+              "new RestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:711:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeployment318525DA7a02bafcf1f33a692d15312adb602478",
+            "trace": [
+              "new Deployment (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/deployment.ts:71:21)",
+              "LambdaRestApi.configureDeployment (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:510:32)",
+              "new RestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:714:10)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeploymentStageprodB78BEEA0",
+            "trace": [
+              "new Stage (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/stage.ts:240:22)",
+              "LambdaRestApi.configureDeployment (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:520:30)",
+              "new RestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:714:10)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpoint8024A810",
+            "trace": [
+              "LambdaRestApi.configureDeployment (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:525:7)",
+              "new RestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.ts:714:10)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:50:5)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpointproxy39E2174E",
+            "trace": [
+              "new Resource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:402:22)",
+              "new ProxyResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:474:5)",
+              "RootResource.addProxy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/ApiPermission.CdkWorkshopStackEndpoint018E8349.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionCdkWorkshopStackEndpoint018E8349ANYproxy747DCA52",
+            "trace": [
+              "Function.addPermission (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:63:18)",
+              "new Method (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:496:18)",
+              "new ProxyResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:483:29)",
+              "RootResource.addProxy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/ApiPermission.Test.CdkWorkshopStackEndpoint018E8349.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYApiPermissionTestCdkWorkshopStackEndpoint018E8349ANYproxy41939001",
+            "trace": [
+              "Function.addPermission (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:71:20)",
+              "new Method (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:496:18)",
+              "new ProxyResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:483:29)",
+              "RootResource.addProxy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYC09721C5",
+            "trace": [
+              "new Method (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:215:22)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:496:18)",
+              "new ProxyResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:483:29)",
+              "RootResource.addProxy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/ANY/ApiPermission.CdkWorkshopStackEndpoint018E8349.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionCdkWorkshopStackEndpoint018E8349ANYE84BEB04",
+            "trace": [
+              "Function.addPermission (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:63:18)",
+              "new Method (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "RootResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:493:29)",
+              "new ProxyResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:483:29)",
+              "RootResource.addProxy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/ANY/ApiPermission.Test.CdkWorkshopStackEndpoint018E8349.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANYApiPermissionTestCdkWorkshopStackEndpoint018E8349ANYB6CC1B64",
+            "trace": [
+              "Function.addPermission (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.ts:245:5)",
+              "LambdaIntegration.bind (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.ts:71:20)",
+              "new Method (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:197:36)",
+              "RootResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:493:29)",
+              "new ProxyResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:483:29)",
+              "RootResource.addProxy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANY485C938B",
+            "trace": [
+              "new Method (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.ts:215:22)",
+              "RootResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:187:12)",
+              "ProxyResource.addMethod (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:493:29)",
+              "new ProxyResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:483:29)",
+              "RootResource.addProxy (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.ts:191:12)",
+              "new LambdaRestApi (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.ts:57:17)",
+              "new CdkWorkshopStack (/home/bluushift/Desktop/CDK workshop/cdk-workshop/lib/cdk-workshop-stack.ts:19:5)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/bin/cdk-workshop.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Module.m._compile (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "main (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:51:24)",
+              "/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:482:12)",
+              "process.emit (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:137:15)"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:60:27)",
+              "/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:422:26)",
+              "process.emit (events.js:315:20)",
+              "process.EventEmitter.emit (domain.js:482:12)",
+              "process.emit (/home/bluushift/Desktop/CDK workshop/cdk-workshop/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:137:15)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
